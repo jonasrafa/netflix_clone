@@ -1,14 +1,9 @@
-# netflix_clone
+# Netflix UI Redesign
 
 ## UI Credit
 - [UpLabs | Anmol Arora](https://www.uplabs.com/posts/netflix-redesign-mobile-app-uplabs-design-challenge)
 
-## Base Design
-
-Netflix UI Redesign
-
-![UI](https://raw.githubusercontent.com/imjonasr/netflix_clone/master/git_images/ui.png)
+<img src="https://raw.githubusercontent.com/imjonasr/netflix_clone/master/git_images/ui.png" alt="drawing" width="200"/>
 
 ## Final Result
-![Login](https://raw.githubusercontent.com/imjonasr/netflix_clone/master/git_images/login.jpg)
-![Home](https://raw.githubusercontent.com/imjonasr/netflix_clone/master/git_images/home.jpg)
+<img src="https://raw.githubusercontent.com/imjonasr/netflix_clone/master/git_images/login.jpg" alt="drawing" width="200"/> <img src="https://raw.githubusercontent.com/imjonasr/netflix_clone/master/git_images/home.jpg" alt="drawing" width="200"/>
