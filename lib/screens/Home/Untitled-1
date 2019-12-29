@@ -1,0 +1,49 @@
+import 'package:flutter/material.dart';
+import 'package:netflix_clone/screens/Home/widgets/ContinueWatching.dart';
+import 'package:netflix_clone/screens/Home/widgets/MyAppBar.dart';
+import 'package:netflix_clone/screens/Home/widgets/Originals.dart';
+import 'package:netflix_clone/screens/Home/widgets/SearchBar.dart';
+
+class Home extends StatefulWidget {
+  @override
+  _HomeState createState() => _HomeState();
+}
+
+class _HomeState extends State<Home> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        backgroundColor: Color(0xFF111111),
+        body: SingleChildScrollView(
+          child: Container(
+            padding: EdgeInsets.all(16),
+            child: Column(
+              children: <Widget>[
+                Expanded(
+                  child: Column(
+                    children: <Widget>[
+                      MyAppBar(),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      SearchBar(),
+                    ],
+                  ),
+                ),
+                Expanded(
+                  flex: 5,
+                  child: SingleChildScrollView(
+                    child: Column(
+                      children: <Widget>[
+                        Originals(),
+                        //ContinueWatching(),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ));
+  }
+}
