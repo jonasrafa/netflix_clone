@@ -7,4 +7,4 @@
 
 Netflix UI Redesign
 
-![UI]()
+![UI](https://raw.githubusercontent.com/imjonasr/netflix_clone/master/ui.png)
