@@ -72,7 +72,7 @@ class _LoginState extends State<Login> {
               RaisedButton(
                 padding: EdgeInsets.only(top: 12, bottom: 12),
                 onPressed: () {
-                  Navigator.pop(
+                  Navigator.push(
                     context, 
                     MaterialPageRoute(
                       builder: (context) => Home()
